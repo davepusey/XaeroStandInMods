@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "xaero-stand-in-xmm",
+	"version": "${version}",
+	"name": "xaero-stand-in-xmm",
+	"description": "Stand-in mod for Xaero's Mini Map",
+	"authors": [
+		"Dave Pusey"
+	],
+	"contact": {
+		"sources": "https://github.com/davepusey/XaeroStandInMods"
+	},
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"davepusey.xaerostandin.XMM"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"breaks": {
+		"xaerominimap": "*"
+	}
+}
